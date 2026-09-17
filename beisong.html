@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>背诵卡 · 人物表与易错对比表</title>
+<style>
+  :root{--bg:#f6f7f9;--card:#fff;--line:#e3e6ea;--txt:#1c1f23;--dim:#6b7280;--blue:#2563eb;--green:#15803d;--amber:#b45309}
+  @media (prefers-color-scheme:dark){:root{--bg:#14161a;--card:#1c1f24;--line:#2c3138;--txt:#e8eaed;--dim:#9aa3ad;--blue:#60a5fa;--green:#4ade80;--amber:#fbbf24}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.75 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-text-size-adjust:100%}
+  .wrap{max-width:720px;margin:0 auto;padding:16px 14px 70px}
+  h1{font-size:20px;margin:6px 0 4px}
+  .sub{color:var(--dim);font-size:13px;margin-bottom:16px}
+  .sub a{color:var(--blue);text-decoration:none;font-weight:600}
+  h2{font-size:16px;margin:24px 0 10px;padding-left:10px;border-left:3px solid var(--blue)}
+  .koujue{list-style:none;padding:0;margin:0}
+  .koujue li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 13px;margin-bottom:8px;font-size:15px}
+  .c{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:9px}
+  .c .t{font-weight:700;font-size:16px;margin-bottom:3px}
+  .c .t small{font-weight:400;color:var(--dim);font-size:12px;margin-left:6px}
+  .c .d{font-size:15px}
+  .c .h{font-size:13px;color:var(--dim);margin-top:5px;padding-top:5px;border-top:1px dashed var(--line)}
+  .cmp{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:9px}
+  .cmp .n{font-weight:700;font-size:15px;color:var(--amber);margin-bottom:4px}
+  .cmp .v{font-size:15px}
+  .cmp .j{font-size:13px;color:var(--dim);margin-top:5px;padding-top:5px;border-top:1px dashed var(--line)}
+  .cmp .j b{color:var(--txt)}
+  ul.plain{padding-left:20px;margin:8px 0}
+  ul.plain li{margin-bottom:6px;font-size:15px}
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:9px}
+  summary{cursor:pointer;font-weight:600;font-size:15px}
+  .q{margin:10px 0 2px;font-size:15px}
+  .foot{color:var(--dim);font-size:13px;margin-top:24px;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>背诵卡 · 人物表 + 易错对比表</h1>
+  <div class="sub">系统科学专项 · 高中组普及类（C3）· 郑建安 · <a href="index.html">✏️ 去做题 →</a></div>
+
+  <h2>先背这四句口诀</h2>
+  <ul class="koujue">
+    <li>老三论：<b>贝</b>一系、<b>维</b>控制、<b>香</b>信息</li>
+    <li>新三论：<b>普耗、哈协、托突变</b></li>
+    <li>系统工程：<b>霍尔三维 + 钱学森概念分类</b></li>
+    <li>两个“霍”别混：<b>霍尔</b>管三维结构，<b>霍兰德</b>管 CAS 与遗传算法</li>
+  </ul>
+
+  <h2>一、关键人物（10 人 · 送分题）</h2>
+  <div class="c"><div class="t">钱学森</div><div class="d">系统的<b>概念和分类</b></div><div class="h">中国的系统科学旗手</div></div>
+  <div class="c"><div class="t">贝塔朗菲</div><div class="d"><b>一般系统论</b>：整体性、同型性、“整体大于部分之和”</div><div class="h">“一般”两个字归贝塔朗菲</div></div>
+  <div class="c"><div class="t">维纳</div><div class="d"><b>控制论</b>：反馈与通信；正反馈放大偏差、负反馈维持稳定、前馈预测校正</div><div class="h">维纳 = <b>维</b>持稳定</div></div>
+  <div class="c"><div class="t">香农</div><div class="d"><b>信息论、信息熵</b> H = −Σp·log p；信道容量；互信息</div><div class="h">香农 = 信息“香”（熵）</div></div>
+  <div class="c"><div class="t">普利高津</div><div class="d"><b>耗散结构</b>：开放系统输入<b>负熵</b>成有序；四条件＝开放、远离平衡态、非线性相互作用、涨落触发</div><div class="h">要“<b>耗</b>”外界能量才成形</div></div>
+  <div class="c"><div class="t">哈肯</div><div class="d"><b>协同学</b>：<b>役使原理——慢变量支配快变量</b></div><div class="h">“哈”！大家一起<b>协同</b></div></div>
+  <div class="c"><div class="t">托姆</div><div class="d"><b>突变论</b>：参数连续变化，状态在<b>临界点突然跳跃</b>（折迭/尖点/燕尾）</div><div class="h">“托”不住 → 突然塌 = 突变</div></div>
+  <div class="c"><div class="t">霍尔</div><div class="d"><b>系统工程</b>：<b>霍尔三维结构＝时间维 + 逻辑维 + 知识维</b></div><div class="h">三维 = 三个“维”，霍尔</div></div>
+  <div class="c"><div class="t">约翰·霍兰德</div><div class="d"><b>遗传算法</b>、复杂适应系统 <b>CAS</b>（适应性主体）</div><div class="h">“遗传”给下一代 → 演化、适应</div></div>
+  <div class="c"><div class="t">冯·诺依曼</div><div class="d"><b>元胞自动机、博弈论</b>、计算机架构</div><div class="h">计算机之父 → 元胞自动机</div></div>
+
+  <h2>二、易错对比（8 组 · 选择题必出）</h2>
+  <div class="cmp"><div class="n">1. 正反馈 / 负反馈</div><div class="v">正＝<b>放大</b>偏差；负＝<b>维持</b>稳定</div><div class="j">判据：病毒传染、人口增长、浮萍翻倍 → 正；恒温器、血糖调节 → 负</div></div>
+  <div class="cmp"><div class="n">2. 自组织 / 他组织</div><div class="v">自＝无外部指令<b>自行</b>有序；他＝需外部<b>命令或设计</b></div><div class="j">判据：蜂群、蚁群、鸟群 → 自；流水线 → 他</div></div>
+  <div class="cmp"><div class="n">3. 开放系统 / 孤立系统</div><div class="v">开放＝与环境<b>交换</b>；孤立＝<b>不交换</b></div><div class="j">判据：生物体、企业、城市 → 开放；整个宇宙 → 孤立</div></div>
+  <div class="cmp"><div class="n">4. 还原论 / 整体论 / 系统论</div><div class="v">拆开研究 / 只看整体 / <b>兼顾整体与部分、研究关系</b></div><div class="j">判据：“拆开”→还原；“只看整体”→整体；“兼顾关系”→系统</div></div>
+  <div class="cmp"><div class="n">5. 熵 / 负熵</div><div class="v">熵＝<b>无序度</b>（孤立系统熵永不减少）；负熵＝从外界<b>引入</b>以维持有序</div><div class="j">判据：变乱 → 熵增；靠外界维持有序 → 负熵</div></div>
+  <div class="cmp"><div class="n">6. 混沌 / 随机</div><div class="v">混沌＝<b>确定</b>系统因强非线性产生、非周期、短期可测长期不可测；随机＝<b>无确定规则</b></div><div class="j">判据：蝴蝶效应、洛伦兹、三体 → 混沌（<b>≠随机</b>）</div></div>
+  <div class="cmp"><div class="n">7. 无标度网络 / 随机网络</div><div class="v">无标度＝<b>幂律 + 枢纽</b>，抗随机失效、怕蓄意打枢纽；随机＝近<b>泊松</b>、聚类系数低、路径短</div><div class="j">判据：幂律、互联网 → 无标度；泊松 → 随机</div></div>
+  <div class="cmp"><div class="n">8. 存量 / 流量</div><div class="v">存量＝<b>累积量</b>；流量＝<b>变化率</b>；<b>存量对时间求导 = 流量</b></div><div class="j">判据：“有多少”→存量；“变化多快”→流量</div></div>
+
+  <h2>三、顺带一起考的三条</h2>
+  <ul class="plain">
+    <li><b>小世界</b>＝路径<b>短</b> + 聚类<b>高</b>（社交网）；<b>规则网络</b>＝聚类高、路径<b>长</b></li>
+    <li><b>三种中心性</b>：度＝邻居数；介数＝当“桥梁”的频率；接近＝到所有节点平均最短距离</li>
+    <li><b>白箱 / 灰箱 / 黑箱</b>：内部全知 / 部分知 / 只知输入输出</li>
+  </ul>
+
+  <h2>四、自测（背完遮住上面再做）</h2>
+  <details>
+    <summary>人物填空（10 题）· 点开看答案</summary>
+    <div class="q">1. 一般系统论 —— <b>贝塔朗菲</b></div>
+    <div class="q">2. 控制论 —— <b>维纳</b></div>
+    <div class="q">3. 信息熵 H = −Σp·log p —— <b>香农</b></div>
+    <div class="q">4. 耗散结构 —— <b>普利高津</b></div>
+    <div class="q">5. 役使原理（慢变量支配快变量）—— <b>哈肯</b></div>
+    <div class="q">6. 突变论（临界点跳跃）—— <b>托姆</b></div>
+    <div class="q">7. 霍尔三维结构 —— <b>霍尔</b></div>
+    <div class="q">8. 遗传算法、CAS —— <b>约翰·霍兰德</b></div>
+    <div class="q">9. 元胞自动机、博弈论 —— <b>冯·诺依曼</b></div>
+    <div class="q">10. 系统的概念和分类 —— <b>钱学森</b></div>
+  </details>
+  <details>
+    <summary>对错判断（8 题）· 点开看答案</summary>
+    <div class="q">1. 混沌就是一种随机过程。—— <b>✗</b>（混沌是<b>确定性</b>系统产生的非周期、类随机行为）</div>
+    <div class="q">2. 无标度网络对随机失效鲁棒，但对蓄意攻击枢纽节点极其脆弱。—— <b>√</b></div>
+    <div class="q">3. 负反馈会放大偏差，导致指数增长。—— <b>✗</b>（那是正反馈）</div>
+    <div class="q">4. 孤立系统会与环境交换能量和信息。—— <b>✗</b>（那是开放系统）</div>
+    <div class="q">5. 存量对时间的导数等于流量。—— <b>√</b></div>
+    <div class="q">6. 蚂蚁靠外部指令排队走，这属于他组织。—— <b>✗</b>（蚁群是自组织）</div>
+    <div class="q">7. 随机网络的度分布近似泊松分布。—— <b>√</b></div>
+    <div class="q">8. 系统的三要素是元素、结构、环境。—— <b>√</b></div>
+  </details>
+
+  <div class="foot">依据官方《系统科学·核心知识清单（初赛备考精编）》整理。<br>考前最后 10 分钟，只看第二节「易错对比」。</div>
+</div>
+</body>
+</html>
